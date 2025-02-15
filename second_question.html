@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Второй вопрос</title>
+    <style>
+        body {
+            background-image: url('images/fon.png');
+            background-size: cover;
+            background-position: center;
+        }
+        .container {
+            text-align: center;
+        }
+        h1, p {
+            font-family: 'Arial', sans-serif;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 10px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        label {
+            display: block;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 5px;
+            border-radius: 5px;
+            margin: 5px 0;
+        }
+    </style>
+    <script>
+        function saveAnswer() {
+            const answer = document.querySelector('input[name="q2"]:checked');
+            if (answer) {
+                localStorage.setItem('q2', answer.value);
+                window.location.href = 'third_question.html';
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Второй вопрос</h1>
+        <form onsubmit="event.preventDefault(); saveAnswer();">
+            <p>Как относишься к гей-бракам в Европе?</p>
+            <label><input type="radio" name="q2" value="1"> Негативно</label>
+            <label><input type="radio" name="q2" value="3"> Да</label>
+            <label><input type="radio" name="q2" value="4"> Состою в таком браке</label>
+            <button type="submit">Отправить</button>
+        </form>
+    </div>
+</body>
+</html>
