@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .bg { fill: #0b0f10; }
+      .g { fill: none; stroke: #00c2c7; stroke-width: 3; }
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="64" height="64" rx="10"/>
+  <path class="g" d="M12 18h40M12 32h40M12 46h40"/>
+</svg>
