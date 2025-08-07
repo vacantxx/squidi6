@@ -1,0 +1,20 @@
+{
+  "series": [
+    {
+      "id": "sample",
+      "title": "Пример манги",
+      "author": "Demo",
+      "cover": "manga/sample-series/cover.svg",
+      "chapters": [
+        {
+          "name": "Глава 1",
+          "pages": [
+            "manga/sample-series/chapter-1/page-001.svg",
+            "manga/sample-series/chapter-1/page-002.svg",
+            "manga/sample-series/chapter-1/page-003.svg"
+          ]
+        }
+      ]
+    }
+  ]
+}

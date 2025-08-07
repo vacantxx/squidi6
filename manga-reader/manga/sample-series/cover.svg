@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200">
+  <defs>
+    <style>
+      .bg { fill: #0b0f10; }
+      .frame { fill: none; stroke: #00c2c7; stroke-width: 4; }
+      .title { fill: #e6f5f5; font: 700 56px system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, sans-serif; letter-spacing: 4px; }
+      .sub { fill: #9fbcbc; font: 400 24px system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, sans-serif; }
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="900" height="1200"/>
+  <rect class="frame" x="24" y="24" width="852" height="1152" rx="14"/>
+  <g transform="translate(0, 0)">
+    <text class="title" x="450" y="560" text-anchor="middle">ПРИМЕР МАНГИ</text>
+    <text class="sub" x="450" y="610" text-anchor="middle">строго — чёрно‑бирюзовый</text>
+  </g>
+</svg>
